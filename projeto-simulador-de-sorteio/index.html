@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Simulador De Sorteio</title>
+  </head>
+  <body>
+    <main class="main-content">
+      <div class="main-content__animal-name-emoji">
+        <p id="animal-emoji" class="emoji-style" role="img" aria-label="emoji">🐄</p>
+        <h2 id="animal-name" class="name-style">Vaca</h2>
+      </div>
+
+      <div class="number-container">
+        <p id="thousands" class="number-container__number">0000</p>
+      </div>
+
+      <button id="button-generate-thousands" class="btn-generate">
+        <span>Gerar Milhar</span>
+      </button>
+
+      <div id="dropdown-container" class="dropdown">
+        <div class="dropdown__label-container">
+          <p>Escolha um bicho:</p>
+        </div>
+        <button id="button-choose-animal" class="dropdown__btn-choose-animal">
+          Nenhum (Aleatório)
+        </button>
+        <div id="animal-dropdown" class="dropdown__animal-container">
+          <div id="none-option" class="animal-container_item none-item">Nenhum (Aleatório)</div>
+          <!-- Animais serão adicionados pelo JavaScript -->
+        </div>
+      </div>
+    </main>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

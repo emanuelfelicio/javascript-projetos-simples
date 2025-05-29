@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Temperatura</title>
+    <link
+      rel="shortcut icon"
+      href="assets/high-temperature-and-climate-vector.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="temperature-container">
+        <h1 class="title">Conversão de Temperatura:</h1>
+
+        <div class="conversor-input-container">
+          <input
+            type="number"
+            inputmode="numeric"
+            id="conversor-input"
+            class="conversor-input-class"
+            value="0"
+          />
+          <p class="temperature-symbol-style" id="temperature-symbol">°C</p>
+        </div>
+
+        <div class="celsius-container">
+          <input type="radio" name="temperature" id="btn-celsius" checked />
+          <label for="btn-celsius">Celsius para Fahrenheit</label>
+        </div>
+
+        <div class="fahrenheit-container">
+          <input type="radio" name="temperature" id="btn-fahrenheit" />
+          <label for="btn-fahrenheit">Fahrenheit para Celsius</label>
+        </div>
+
+        <button type="button" id="conversion-button" class="btn-conversion">converter</button>
+
+        <div class="result-container">
+          <span id="result-content"></span>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

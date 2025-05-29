@@ -1,0 +1,61 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  color: rgb(49, 49, 49);
+  background-color: #9ed99d;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.temperature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 600px;
+  height: 350px;
+  margin: 50px;
+  border-radius: 80px;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.title {
+  margin: 20px 0px 0px 0px;
+  width: 250px;
+}
+.conversor-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid rgb(110, 110, 110);
+  border-radius: 20px;
+}
+.conversor-input-class {
+  all: unset;
+  border: none;
+  outline: none;
+  padding: 0px 0px 0px 0px;
+  width: 70px;
+  height: 50px;
+  text-align: right;
+}
+.temperature-symbol-style {
+  padding: 0px 10px 0px 10px;
+}
+.btn-conversion {
+  color: white;
+  border: none;
+  box-shadow: rgb(216, 216, 216) 0px 6px 0px;
+  border-radius: 7px;
+  padding: 15px;
+  margin: 10px 0px 10px 0px;
+  background-color: #9ed99d;
+  cursor: pointer;
+}
+
+.btn-conversion:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px #7a7a7a;
+}

@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.buttons {
+  border-radius: 1em;
+  border-style: none;
+  background-color: rgb(160, 109, 218);
+  padding: 10px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.buttons:hover {
+  background-color: rgb(138, 57, 231);
+}
+
+#counter {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(160, 109, 218);
+  text-align: center;
+  font-size: 10em;
+}
+#btnContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
