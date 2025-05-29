@@ -2,6 +2,9 @@
 
 Este projeto é um **simulador baseado em um sistema tradicional brasileiro conhecido popularmente como "jogo do bicho"**, utilizado aqui como **referência cultural**.
 
+🚀 **Veja o projeto funcionando online:**  
+[Simulador no GitHub Pages](https://emanuelfelicio.github.io/javascript-projetos-simples/projeto-simulador-de-sorteio/)
+
 O objetivo é praticar e demonstrar habilidades técnicas como:
 
 - Lógica de programação
